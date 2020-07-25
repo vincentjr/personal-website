@@ -33,9 +33,9 @@ const iconSize = {
 }
 
 const container = {
-  // "display": "flex",
-  // "flexDirection": "column",
-  // "justifyContent": "space-between",
+  "display": "flex",
+  "flexDirection": "column",
+  "justifyContent": "space-between",
   "padding": "20px",
   "minHeight": "100%"
 }
@@ -61,8 +61,11 @@ const Sidebar = () => {
             <Paragraph underline>This is underline</Paragraph>
       </aside>
 
-      <footer>
-        <Link to="/now/">Now</Link> <br />
+      <div style={{marginTop: "30px"}}>
+        {/*
+          <Link to="/">Home</Link> <br />
+          <Link to="/now/">Now</Link> <br />
+        */}
         <div style={{marginTop: "10px"}}>
           <a href="https://www.instagram.com/vincentjr_">
             <InstagramOutlined style={iconSize} />
@@ -77,7 +80,7 @@ const Sidebar = () => {
             <MediumOutlined style={iconSize} />
           </a>
         </div>
-      </footer>
+      </div>
     </div>
   )
 }
