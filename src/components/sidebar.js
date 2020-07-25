@@ -25,7 +25,7 @@ import { Link } from "gatsby"
 
 import "./sidebar.css"
 
-const { Paragraph, Title } = Typography
+const { Paragraph, Text, Title } = Typography
 
 const iconSize = {
   fontSize: "1.5rem",
@@ -57,8 +57,7 @@ const Sidebar = () => {
     <div style={container}>
       <aside>
         <Title>Hi, I'm Vincent.</Title>
-            <Paragraph mark>This is paragraph mark</Paragraph>
-            <Paragraph underline>This is underline</Paragraph>
+        <Paragraph>ASDA asddsgsdg <Text mark>fdsfsdfsdFSDF</Text> dsfsd fsd sdgsdfgdsfgsdg dfgdfsgsdfgdfg dfsgdfsgsdfgsdfg sdfgdfsgdsfgdf</Paragraph>
       </aside>
 
       <div style={{marginTop: "30px"}}>

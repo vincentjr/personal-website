@@ -22,42 +22,43 @@ const records = [
     "type": "professional",
     "title": "This is the title",
     "description": "This is the description",
-    "technologies": ['Python'],
+    "languages": ['Python', 'GraphQL', 'Javascript'],
+    "frameworks": ['Flask', 'ReactJS', 'Redux'],
     "date": "March 2015"
   },
   {
     "type": "side-project",
     "title": "This is the title",
     "description": "asdasdd asfgdsgsgs adasdag asdasdadd asdasdd asfgdsgsgs adasdag asdasdadd asdasdd asfgdsgsgs adasdag asdasdadd asdasdd asfgdsgsgs adasdag asdasdadd asdasdd asfgdsgsgs adasdag asdasdadd asdasdd asfgdsgsgs adasdag asdasdadd asdasdd asfgdsgsgs adasdag asdasdadd asdasdd asfgdsgsgs adasdag asdasdadd asdasdd asfgdsgsgs adasdag asdasdadd ",
-    "technologies": "",
+    "languages": "",
     "date": "March 2015"
   },
   {
     "type": "personal",
     "title": "This is the title",
     "description": "asdasdd asfgdsgsgs adasdag asdasdadd asdasdd asfgdsgsgs adasdag asdasdadd asdasdd asfgdsgsgs adasdag asdasdadd asdasdd asfgdsgsgs adasdag asdasdadd asdasdd asfgdsgsgs adasdag asdasdadd asdasdd asfgdsgsgs adasdag asdasdadd asdasdd asfgdsgsgs adasdag asdasdadd asdasdd asfgdsgsgs adasdag asdasdadd asdasdd asfgdsgsgs adasdag asdasdadd ",
-    "technologies": "",
+    "languages": "",
     "date": "March 2015"
   },
   {
     "type": "professional",
     "title": "This is the title",
     "description": "This is the description",
-    "technologies": ['Python'],
+    "languages": ['Python'],
     "date": "March 2015"
   },
   {
     "type": "side-project",
     "title": "This is the title",
     "description": "asdasdd asfgdsgsgs adasdag asdasdadd asdasdd asfgdsgsgs adasdag asdasdadd asdasdd asfgdsgsgs adasdag asdasdadd asdasdd asfgdsgsgs adasdag asdasdadd asdasdd asfgdsgsgs adasdag asdasdadd asdasdd asfgdsgsgs adasdag asdasdadd asdasdd asfgdsgsgs adasdag asdasdadd asdasdd asfgdsgsgs adasdag asdasdadd asdasdd asfgdsgsgs adasdag asdasdadd ",
-    "technologies": "",
+    "languages": "",
     "date": "March 2015"
   },
   {
     "type": "personal",
     "title": "This is the title",
     "description": "asdasdd asfgdsgsgs adasdag asdasdadd asdasdd asfgdsgsgs adasdag asdasdadd asdasdd asfgdsgsgs adasdag asdasdadd asdasdd asfgdsgsgs adasdag asdasdadd asdasdd asfgdsgsgs adasdag asdasdadd asdasdd asfgdsgsgs adasdag asdasdadd asdasdd asfgdsgsgs adasdag asdasdadd asdasdd asfgdsgsgs adasdag asdasdadd asdasdd asfgdsgsgs adasdag asdasdadd ",
-    "technologies": "",
+    "languages": "",
     "date": "March 2015"
   }
 ]
@@ -106,7 +107,7 @@ const IndexPage = () => {
                   }
 
                   const {
-                    technologies
+                    frameworks, languages
                   } = item
 
                   return (
@@ -116,10 +117,11 @@ const IndexPage = () => {
                     >
                       <Card hoverable>
                         {item.description}
-                        {technologies && (
+                        {languages && frameworks && (
                           <React.Fragment>
                             <Divider />
-                            {technologies.map( (item, index) => <Tag key={index} color="gold">{item}</Tag> )}
+                            {frameworks.map( (item, index) => <Tag key={index} color="volcano">{item}</Tag> )}
+                            {languages.map( (item, index) => <Tag key={index} color="gold">{item}</Tag> )}
                           </React.Fragment>
                         )}
                       </Card>

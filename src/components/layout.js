@@ -13,7 +13,7 @@ const SiteLayout = ({ children }) => (
     <main id="main">
         {children}
 	    <footer>
-	  		© {new Date().getFullYear()}; Last update August '20
+	  		© {new Date().getFullYear()}; Last updated August '20
 		</footer>
     </main>
   </React.Fragment>
