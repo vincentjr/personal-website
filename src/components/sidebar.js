@@ -21,8 +21,6 @@ import {
   GithubOutlined
 } from '@ant-design/icons';
 
-import { Link } from "gatsby"
-
 import "./sidebar.css"
 
 const { Paragraph, Text, Title } = Typography
