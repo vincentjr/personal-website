@@ -5,6 +5,11 @@ import Sidebar from "./sidebar"
 import "antd/dist/antd.css"
 import "./layout.css"
 
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+
+library.add(fab)
+
 const SiteLayout = ({ children }) => (
   <React.Fragment>
     <div id="sider">
@@ -13,8 +18,8 @@ const SiteLayout = ({ children }) => (
     <main id="main">
         {children}
 	    <footer>
-	  		© {new Date().getFullYear()}; Last updated August '20
-		</footer>
+	  		© {new Date().getFullYear()}; Last updated Aug. 2020
+		  </footer>
     </main>
   </React.Fragment>
 )

@@ -14,19 +14,16 @@ import {
   Typography
 } from "antd"
 
-import {
-  InstagramOutlined,
-  LinkedinOutlined,
-  MediumOutlined,
-  GithubOutlined
-} from '@ant-design/icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
+import Image from "./image"
 
 import "./sidebar.css"
 
-const { Paragraph, Text, Title } = Typography
+const { Paragraph, Title } = Typography
 
 const iconSize = {
-  fontSize: "1.5rem",
+  fontSize: "1.7rem",
   marginRight: "10px"
 }
 
@@ -54,8 +51,17 @@ const Sidebar = () => {
   return (
     <div style={container}>
       <aside>
+        <Image />
         <Title>Hi, I'm Vincent.</Title>
-        <Paragraph>ASDA asddsgsdg <Text mark>fdsfsdfsdFSDF</Text> dsfsd fsd sdgsdfgdsfgsdg dfgdfsgsdfgdfg dfsgdfsgsdfgsdfg sdfgdfsgdsfgdf</Paragraph>
+        <Paragraph>
+          I'm a product manager with professional software engineering experience based out of New York.
+          I'm passionate about understanding user's problems and breaking down complex systems into intuitive products.
+          Full-time I work in the advertising technology space, as well as building tools to help musicians have a sustainable career.
+        </Paragraph>
+        <Paragraph>
+          I'm into fitness, carpentry, fishing, and have been known to fall deep into the Youtube universe.
+          The picture above was taken at Cathedral Rock in Sedona, Arizona.
+        </Paragraph>
       </aside>
 
       <div style={{marginTop: "30px"}}>
@@ -65,16 +71,19 @@ const Sidebar = () => {
         */}
         <div style={{marginTop: "10px"}}>
           <a href="https://www.instagram.com/vincentjr_">
-            <InstagramOutlined style={iconSize} />
+            <FontAwesomeIcon style={iconSize} icon={["fab", "instagram"]} />
+          </a>
+          <a href="https://angel.co/u/vincent-smith">
+            <FontAwesomeIcon style={iconSize} icon={["fab", "angellist"]} />
           </a>
           <a href="https://www.linkedin.com/in/vincentsmithjr/">
-            <LinkedinOutlined style={iconSize} />
+            <FontAwesomeIcon style={iconSize} icon={["fab", "linkedin"]} />
           </a>
           <a href="https://www.github.com/vincentjr">
-            <GithubOutlined style={iconSize} />
+            <FontAwesomeIcon style={iconSize} icon={["fab", "github"]} />
           </a>
           <a href="https://www.medium.com/@noise_vincent">
-            <MediumOutlined style={iconSize} />
+            <FontAwesomeIcon style={iconSize} icon={["fab", "medium"]} />
           </a>
         </div>
       </div>
