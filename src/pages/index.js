@@ -28,7 +28,7 @@ const sideProjects = [
     "title": "Noise.net",
     "roles": ["Founder", "Engineer"],
     "url": "https://noise.net",
-    "description": "Noise is an application for musicians and their management team to help grow their career. Noise provides tools built around monitoring growth across digital networks, fan relationships, and merchandise analytics. Over the last decade of working with musicians and building apps to help their day-to-day, I'm building a product for independent musicians that want \"label grade\" tools.",
+    "description": "Noise is an application for musicians and their management team to help grow their career. Noise provides tools built around monitoring growth across digital networks, fan relationships, and merchandise analytics. My ultimate goal is to give \"label grade\" tools to independent musicians.",
     "languages": ["JS", "Python"],
     "frameworks": ["Flask", "ReactJS", "Redux", "Material-UI"],
     "readableDate": "Feb. 2019 - Current",
@@ -110,8 +110,8 @@ const professionalProjects = [
   {
     "type": "professional",
     "title": "4C Insights (acq. by Mediaocean)",
-    "roles": ["Director, Product Management", "Technical Product Manager", "Software Engineer"],
-    "description": "4C is building the leading self-service intelligence platform for marketers to drive business outcomes across closed ecosystems. My current focus is leading our next-gen platform to handle our omni-channel vision and improving the customer challenges when using disparate data sources for their media planning, buying, and optimization. Previously, I worked on our measurements and integrations pipeline and built our automation and reporting framework, API, and labels library among other workflow tools.",
+    "roles": ["Director, Product Management"],
+    "description": "4C is building the leading self-service intelligence platform for marketers to drive business outcomes across closed ecosystems. My current focus is leading our next-gen platform to handle our omni-channel vision and improving customer challenges when using disparate data sources for their media buys. Previously, I worked on our measurements and integrations pipeline and built our automation and reporting framework, API, and labels library among other workflow tools.",
     "languages": ["JS", "Python"],
     "frameworks": ["Ember.js", "Flask", "ReactJS"],
     "readableDate": "Jan. 2015 - Current",
@@ -130,7 +130,7 @@ const professionalProjects = [
     "type": "professional",
     "title": "IBM",
     "roles": ["QA Project Manager"],
-    "description": "At IBM, I helped manage the teams schedule between third-party enterprise networking vendors and our internal testing team. Specifically, we were qualifying customers who built Dense Wave Division Multiplexers designed for our IBM z System Mainframes. I also helped write Perl scripts to help the internal testing team spot errors and anomalies in the testing logs.",
+    "description": "At IBM, I helped manage the team's schedule between third-party enterprise networking vendors and our internal testing team. Specifically, we were qualifying customers who built Dense Wave Division Multiplexers designed for our IBM z System Mainframes. I also wrote scripts to help the internal testing team spot errors and anomalies in their testing logs.",
     "languages": ["Perl"],
     "readableDate": "July 2011 - Jan. 2012",
     date: new Date('2012-01-01')
