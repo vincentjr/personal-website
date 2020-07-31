@@ -1,10 +1,6 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-// import Img from "gatsby-image"
-
-import {
-  Avatar,
-} from "antd"
+import Img from "gatsby-image"
 
 /*
  * This component is built using `gatsby-image` to automatically serve optimized
@@ -30,11 +26,13 @@ const Image = () => {
     }
   `)
 
-  return <Avatar
-    size={300}
-    src={data.placeholderImage.childImageSharp.fluid.src}
-    style={{display: "block", "margin": "10px auto"}}
+  return <Img
+    fluid={data.placeholderImage.childImageSharp.fluid}
+    alt="Vincent Smith headshot"
+    style={{display: "block", "margin": "10px auto", "borderRadius": "50%"}}
   />
+
+
 }
 
 export default Image
