@@ -53,6 +53,7 @@ const IndexPage = ( props ) => {
     item['date'] = item.date ? new Date(item.date) : new Date()
     item['frameworks'] = item.frameworks === null ? [] : item.frameworks
     item['languages'] = item.languages === null ? [] : item.languages
+    item['roles'] = item.roles === null ? undefined : item.roles
     return item
   })
 
