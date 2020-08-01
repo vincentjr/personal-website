@@ -7,7 +7,7 @@
 
 
 // import { useStaticQuery, graphql } from "gatsby"
-
+import { OutboundLink } from "gatsby-plugin-google-analytics"
 import React from "react"
 
 import {
@@ -65,26 +65,22 @@ const Sidebar = () => {
       </aside>
 
       <div style={{marginTop: "30px"}}>
-        {/*
-          <Link to="/">Home</Link> <br />
-          <Link to="/now/">Now</Link> <br />
-        */}
         <div style={{marginTop: "10px"}}>
-          <a href="https://www.instagram.com/vincentjr_" title="Vincent Smith Instagram">
+          <OutboundLink href="https://www.instagram.com/vincentjr_" title="Vincent Smith Instagram">
             <FontAwesomeIcon style={iconSize} icon={["fab", "instagram"]} />
-          </a>
-          <a href="https://angel.co/u/vincent-smith" title="Vincent Smith Angellist">
+          </OutboundLink>
+          <OutboundLink href="https://angel.co/u/vincent-smith" title="Vincent Smith Angellist">
             <FontAwesomeIcon style={iconSize} icon={["fab", "angellist"]} />
-          </a>
-          <a href="https://www.linkedin.com/in/vincentsmithjr/" title="Vincent Smith LinkedIn">
+          </OutboundLink>
+          <OutboundLink href="https://www.linkedin.com/in/vincentsmithjr/" title="Vincent Smith LinkedIn">
             <FontAwesomeIcon style={iconSize} icon={["fab", "linkedin"]} />
-          </a>
-          <a href="https://www.github.com/vincentjr" title="Vincent Smith Github">
+          </OutboundLink>
+          <OutboundLink href="https://www.github.com/vincentjr" title="Vincent Smith Github">
             <FontAwesomeIcon style={iconSize} icon={["fab", "github"]} />
-          </a>
-          <a href="https://www.medium.com/@noise_vincent" title="Vincent Smith Medium">
+          </OutboundLink>
+          <OutboundLink href="https://www.medium.com/@noise_vincent" title="Vincent Smith Medium">
             <FontAwesomeIcon style={iconSize} icon={["fab", "medium"]} />
-          </a>
+          </OutboundLink>
         </div>
       </div>
     </div>
