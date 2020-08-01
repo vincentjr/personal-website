@@ -3,6 +3,7 @@ import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 
 import Sidebar from "./sidebar"
+import SEO from "./seo"
 
 import "antd/dist/antd.css"
 import "./layout.css"
@@ -14,11 +15,8 @@ library.add(fab)
 
 const SiteLayout = ({ children }) => (
   <div>
+    <SEO lang="en" title="Portfolio website for Product Manager and Engineer, Vincent Smith Jr." />
     <Helmet>
-      <meta charSet="utf-8" />
-      <html lang="en" />
-      <title>Vincent Smith Jr. Portfolio Website</title>
-      <meta name="description" content="Portfolio website for Product Manager and Engineer, Vincent Smith Jr." />
       <link rel="canonical" href="https://vincentjr.com/" />
     </Helmet>
     <div id="sider">
