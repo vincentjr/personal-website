@@ -56,7 +56,7 @@ const Sidebar = () => {
         <Paragraph>
           I'm a product manager with professional software engineering experience based out of New York.
           I'm passionate about understanding user's problems and breaking down complex systems into intuitive products.
-          For the past 5 years, I've been working in the advertising technology space as well as creating tools to help musicians build a sustainable career.
+          Currently, I am working in the advertising technology space, while also creating tools to help musicians build a sustainable career.
         </Paragraph>
         <Paragraph>
           I'm into fitness, carpentry, fishing, and have been known to fall deep into the Youtube universe.
