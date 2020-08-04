@@ -29,7 +29,7 @@ const Image = () => {
   return <Img
     fluid={data.placeholderImage.childImageSharp.fluid}
     alt="Vincent Smith headshot"
-    style={{display: "block", "margin": "10px auto", "borderRadius": "50%"}}
+    style={{display: "block", "margin": "10px auto", "borderRadius": "50%", maxWidth: "350px"}}
   />
 
 

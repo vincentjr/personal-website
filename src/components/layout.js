@@ -15,7 +15,7 @@ library.add(fab)
 
 const SiteLayout = ({ children }) => (
   <div>
-    <SEO lang="en" title="Portfolio website for Product Manager and Engineer, Vincent Smith Jr." />
+    <SEO lang="en" />
     <Helmet>
       <link rel="canonical" href="https://vincentjr.com/" />
     </Helmet>
