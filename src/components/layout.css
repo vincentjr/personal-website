@@ -10,9 +10,9 @@ div[role="group"][tabindex] {
     /*min-height: 100%;*/
 }
 
-#gatsby-focus-wrapper {
+/*#gatsby-focus-wrapper {*/
     /*min-height: 100%;*/
-}
+/*}*/
 
 #sider {
     border-left: 10px solid #ffe58f;
