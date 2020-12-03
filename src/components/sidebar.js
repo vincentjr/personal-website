@@ -54,12 +54,11 @@ const Sidebar = () => {
         <Image />
         <Title>Hi, I'm Vincent.</Title>
         <Paragraph>
-          I'm a product manager with professional software engineering experience based out of New York.
+          I'm a technical leader with product experience based out of New York.
           I'm passionate about understanding user's problems and breaking down complex systems into intuitive products.
           Currently, I am working in the advertising technology space, while also creating tools to help musicians build a sustainable career.
         </Paragraph>
         <Paragraph>
-          I'm into fitness, carpentry, fishing, and have been known to fall deep into the Youtube universe.
           The picture above was taken at Cathedral Rock in Sedona, Arizona.
         </Paragraph>
       </aside>

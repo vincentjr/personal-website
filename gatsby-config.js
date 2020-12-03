@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Vincent Smith Jr. Portfolio`,
-    description: `Portfolio website for Product Manager and Engineer, Vincent Smith Jr.`,
+    description: `Portfolio website for Product Manager and Technical Leader, Vincent Smith Jr.`,
     author: `@noise_vincent`,
   },
   plugins: [
