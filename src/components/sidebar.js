@@ -77,9 +77,6 @@ const Sidebar = () => {
           <OutboundLink href="https://www.github.com/vincentjr" title="Vincent Smith Github">
             <FontAwesomeIcon style={iconSize} icon={["fab", "github"]} />
           </OutboundLink>
-          <OutboundLink href="https://www.medium.com/@noise_vincent" title="Vincent Smith Medium">
-            <FontAwesomeIcon style={iconSize} icon={["fab", "medium"]} />
-          </OutboundLink>
         </div>
       </div>
     </div>
