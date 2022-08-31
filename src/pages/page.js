@@ -24,8 +24,9 @@ const PageView = () => (
       {`
         {
           twq('event', 'tw-obv91-obvab', {
-            contents: [], // use this to pass an array of products or content
-            email_address: 'test@testing.com'
+            contents: [{content_id: '0T001001', num_items: 1}],
+            email_address: 'test_email@twitter.com',
+            phone_number: '+11234567890'
           });
         }
       `}

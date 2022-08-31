@@ -20,15 +20,16 @@ const ContentView = () => (
       <Link to="/purchase">Purchase pixel</Link>
     </div>
     <Helmet>
-    <script>
-      {`
-        {
-          twq('event', 'tw-obv91-obvac', {
-            contents: [], // use this to pass an array of products or content
-            email_address: 'test@testing.com'
-          });
-        }
-      `}
+      <script>
+        {`
+          {
+            twq('event', 'tw-obv91-obvac', {
+              contents: [{content_id: '0T001001', num_items: 1}],
+              email_address: 'test_email@twitter.com',
+              phone_number: '+11234567890'
+            });
+          }
+        `}
       </script>
     </Helmet>
   </Layout>

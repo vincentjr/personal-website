@@ -24,10 +24,11 @@ const Cart = () => (
       {`
         {
           twq('event', 'tw-obv91-obvad', {
-            value: '10.00', // use this to pass the value of the conversion (e.g. 5.00)
+            value: 10.00, // use this to pass the value of the conversion (e.g. 5.00)
             currency: 'USD', // use this to pass the currency of the conversion with an ISO 4217 code (e.g. ‘USD’)
-            contents: [], // use this to pass an array of products or content
-            email_address: 'test@testing.com'
+            contents: [{content_id: '0T001001', num_items: 1}],
+            email_address: 'test_email@twitter.com',
+            phone_number: '+11234567890'
           });
         }
       `}
